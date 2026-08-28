@@ -8,3 +8,6 @@
 
 > #### click: Instrument your app
 <img width="939" height="356" alt="image" src="https://github.com/user-attachments/assets/1950cf9c-267c-46f8-91eb-6d3f069c81db" />
+
+> #### click: Continue with Github
+<img width="476" height="729" alt="image" src="https://github.com/user-attachments/assets/d74d1fb5-d9e3-45aa-994d-86c2ea01cacf" />
