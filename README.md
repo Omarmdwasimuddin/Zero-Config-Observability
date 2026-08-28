@@ -71,6 +71,7 @@ npm install @nestjs/observe
 
 
 #### `app.module.ts`
+>#### প্রথমে createObserveModule() থেকে ObserveModule এবং ObserveInstrument তৈরি করতে হবে।
 ```bash
 import { Module } from '@nestjs/common';
 import { createObserveModule } from '@nestjs/observe';
@@ -88,4 +89,8 @@ export const { ObserveModule, ObserveInstrument } = createObserveModule();
 })
 export class AppModule {}
 ```
+>#### এখানে serviceId: 'my-nest-app' হলো তোমার application/service-এর identifier। এটা তোমার নিজের application অনুযায়ী নাম দিতে পারো। Documentation অনুযায়ী serviceId required।
 ---
+
+
+
