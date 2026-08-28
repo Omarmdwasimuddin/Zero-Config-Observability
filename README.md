@@ -51,3 +51,12 @@
 
 >#### copy koro--->APP key and APP secret---> paste koro: .env file e
 <img width="525" height="497" alt="image" src="https://github.com/user-attachments/assets/315f416c-3478-43f5-b424-968b6f5eb0db" />
+
+---
+
+#### `.env` file e rakhba evabe
+```bash
+OBSERVE_APP_KEY=""
+OBSERVE_APP_SECRET=""
+```
+---
