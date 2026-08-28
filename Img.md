@@ -1,4 +1,4 @@
-# NestJS Zero-Config Observability (Observe) — সহজ বাংলা গাইড
+# NestJS Zero-Config Observability (Observe) 
 
 ## এটা কী?
 
@@ -200,16 +200,3 @@ Observe Dashboard
 মানে সহজ কথায় — Dashboard-এ Project ও Application বানিয়ে key নিয়ে আসো, সেই key `.env`-এ বসাও, SDK install করে `app.module.ts` আর `main.ts`-এ wire করে দাও। এরপর তোমার app-এ যত API request আসবে, সেগুলোর data automatic Observe Dashboard-এ চলে যাবে — দেখার জন্য আলাদা করে কিছু log/setup করা লাগবে না।
 
 ---
-
-## সংক্ষেপে (Quick Summary)
-
-| ধাপ | কাজ |
-|---|---|
-| ১ | nestjs.com → Observe → GitHub দিয়ে login |
-| ২ | Dashboard-এ Project তৈরি (Name + Team + Avatar) |
-| ৩ | Project-এর ভিতরে Application তৈরি |
-| ৪ | API Keys থেকে key তৈরি (App Key + App Secret পাওয়া) |
-| ৫ | Key দুটো `.env`-এ বসানো |
-| ৬ | `npm install @nestjs/observe` |
-| ৭ | `app.module.ts`-এ `createObserveModule()` দিয়ে `ObserveModule.forRoot()` setup |
-| ৮ | `main.ts`-এ `dotenv/config` import + `instrument: ObserveInstrument` পাস করা |
