@@ -1,78 +1,80 @@
-## Zero-Config Observability
+# NestJS Zero-Config Observability (Observe) 
 
-> #### visit---> https://nestjs.com/
+## এটা কী?
 
-
-> #### click---> Observe
-<img width="1525" height="607" alt="image" src="https://github.com/user-attachments/assets/44b1ddba-2b71-4801-acc1-b3fb26e47830" />
-
-> #### click: Instrument your app
-<img width="939" height="356" alt="image" src="https://github.com/user-attachments/assets/1950cf9c-267c-46f8-91eb-6d3f069c81db" />
-
-> #### click: Continue with Github
-<img width="476" height="729" alt="image" src="https://github.com/user-attachments/assets/d74d1fb5-d9e3-45aa-994d-86c2ea01cacf" />
-
-> #### https://www.observe.nestjs.com/dashboard open hobe
-<img width="1599" height="729" alt="image" src="https://github.com/user-attachments/assets/b0cd2fff-1be6-4720-a396-4ba6a0f43c27" />
-
-> #### click: CREATE PROJECT
-<img width="1175" height="100" alt="image" src="https://github.com/user-attachments/assets/250116eb-bf98-49cc-a262-9716eccf6523" />
-
-> #### value daw. Name: my-nest-app , Team: students-api , Avatar select koro ar click koro---> CONFIRM
-> #### Note: Create e click korte hobe na hole Team option e value thakbe na.
-> <img width="477" height="92" alt="image" src="https://github.com/user-attachments/assets/72ad8f8a-999f-402c-b80a-c6b3a9fecb97" />
-
-<img width="1338" height="668" alt="image" src="https://github.com/user-attachments/assets/8bb9ccf3-ffcc-4bcc-b561-a6c0df993924" />
+**Observe** হলো NestJS-এর নিজস্ব zero-config observability tool — মানে খুব কম setup-এই তোমার application-এর request, performance, error ইত্যাদি monitor করা যায়। নিচে ধাপে ধাপে পুরো setup process দেওয়া হলো।
 
 ---
 
->#### click koro: my-nest
-<img width="1182" height="163" alt="image" src="https://github.com/user-attachments/assets/f0a77c19-3766-4f2d-ac68-fd3344005e42" />
+## ধাপ ১: Observe Dashboard-এ যাওয়া
 
-##
-
->#### click: Create application ---> abar click koro: CREATE APPLICATION
-<img width="1159" height="105" alt="image" src="https://github.com/user-attachments/assets/01a23af2-6aed-413b-9498-928486be3be0" />
-
->#### Name daw: `my-application`
-<img width="525" height="399" alt="image" src="https://github.com/user-attachments/assets/b4b624d3-2017-4933-8446-79402e2c5ee1" />
-
-##
-
->#### click koro: `API KEYS`
-<img width="257" height="515" alt="image" src="https://github.com/user-attachments/assets/b87006e3-35dd-4d59-9485-47dd30429fba" />
-
->#### click: `ADD KEY`
-<img width="1206" height="309" alt="image" src="https://github.com/user-attachments/assets/9bf947fc-c5d4-416e-9f19-7424aa625859" />
-
->#### Name: `my-api-keys` , Application: `my-application` ---> click: CONFIRM
-<img width="522" height="437" alt="image" src="https://github.com/user-attachments/assets/fede9fc8-6192-426b-ab85-408c7d691a65" />
-
-
->#### copy koro--->APP key and APP secret---> paste koro: .env file e
-<img width="525" height="497" alt="image" src="https://github.com/user-attachments/assets/315f416c-3478-43f5-b424-968b6f5eb0db" />
+1. **[https://nestjs.com/](https://nestjs.com/)** ওয়েবসাইটে যাও
+2. **Observe** নামের অপশনে ক্লিক করো
+3. এরপর **"Instrument your app"** অপশনে ক্লিক করো
+4. Login করার জন্য **"Continue with GitHub"** সিলেক্ট করো
+5. Login হয়ে গেলে **[https://www.observe.nestjs.com/dashboard](https://www.observe.nestjs.com/dashboard)** — এই dashboard পেজ খুলে যাবে
 
 ---
 
-#### `.env` file e rakhba evabe
+## ধাপ ২: Project তৈরি করা
+
+1. Dashboard-এ **CREATE PROJECT** বাটনে ক্লিক করো
+2. একটা ফর্ম আসবে, সেখানে দিতে হবে:
+   - **Name:** `my-nest-app`
+   - **Team:** `students-api`
+   - একটা **Avatar** সিলেক্ট করো
+3. সবশেষে **CONFIRM** বাটনে ক্লিক করো
+
+> ⚠️ **গুরুত্বপূর্ণ নোট:** "Create"-এ ক্লিক করতেই হবে — না হলে Team option-এ কোনো value দেখাবে না।
+
+---
+
+## ধাপ ৩: Application তৈরি করা
+
+1. যে project তৈরি করেছ (`my-nest`), সেটাতে ক্লিক করো
+2. **"Create application"** অপশনে ক্লিক করো, এরপর আবার **CREATE APPLICATION** বাটনে ক্লিক করো
+3. Application-এর নাম দাও: `my-application`
+
+---
+
+## ধাপ ৪: API Key তৈরি করা
+
+1. সাইডবার থেকে **API KEYS** অপশনে ক্লিক করো
+2. **ADD KEY** বাটনে ক্লিক করো
+3. ফর্মে দাও:
+   - **Name:** `my-api-keys`
+   - **Application:** `my-application`
+4. **CONFIRM** বাটনে ক্লিক করো
+5. যে **App Key** আর **App Secret** পাবে, সেগুলো copy করে রাখো — এগুলো একটু পরে `.env` file-এ বসাতে হবে
+
+---
+
+## ধাপ ৫: `.env` File-এ Key বসানো
+
 ```bash
 OBSERVE_APP_KEY=""
 OBSERVE_APP_SECRET=""
 ```
+
+উপরের quote-এর ভিতরে ধাপ ৪-এ পাওয়া App Key আর App Secret বসিয়ে দাও।
+
 ---
 
+## ধাপ ৬: SDK Install করা
 
-#### SDK install koro
-> NestJS project er terminal e daw 
+তোমার NestJS project-এর terminal-এ গিয়ে চালাও:
+
 ```bash
 npm install @nestjs/observe
 ```
+
 ---
 
+## ধাপ ৭: `app.module.ts` Setup করা
 
-#### `app.module.ts`
->#### প্রথমে createObserveModule() থেকে ObserveModule এবং ObserveInstrument তৈরি করতে হবে।
-```bash
+`createObserveModule()` থেকে প্রথমে `ObserveModule` আর `ObserveInstrument` তৈরি করে নিতে হবে:
+
+```ts
 import { Module } from '@nestjs/common';
 import { createObserveModule } from '@nestjs/observe';
 
@@ -89,56 +91,75 @@ export const { ObserveModule, ObserveInstrument } = createObserveModule();
 })
 export class AppModule {}
 ```
->#### এখানে serviceId: 'my-nest-app' হলো তোমার application/service-এর identifier। এটা তোমার নিজের application অনুযায়ী নাম দিতে পারো। Documentation অনুযায়ী serviceId required।
+
+> **নোট:** `serviceId: 'my-nest-app'` হলো তোমার application/service-এর identifier। এটা তোমার নিজের application অনুযায়ী যেকোনো নাম দিতে পারো — documentation অনুযায়ী `serviceId` দেওয়া **required**।
+
 ---
 
+## ধাপ ৮: `main.ts` Setup করা
 
-#### `main.ts`
-```bash
+`NestFactory.create()`-এ `instrument` option হিসেবে `ObserveInstrument` পাস করতে হবে:
+
+```ts
 const app = await NestFactory.create(AppModule, {
   instrument: ObserveInstrument,
 });
 ```
->#### main.ts file e import koro `import 'dotenv/config';` and dotenv package install koro
+
+Environment variable load করার জন্য `main.ts`-এর একদম শুরুতে `dotenv/config` import করতে হবে:
+
+```ts
+import 'dotenv/config';
+```
+
+এর জন্য `dotenv` package install করতে হবে:
+
 ```bash
 npm install dotenv --save
 ```
->#### final `main.ts` file hobe.
-```bash
+
+### Final `main.ts` ফাইল দেখতে এমন হবে:
+
+```ts
 import 'dotenv/config';
 import { NestFactory } from '@nestjs/core';
 import { AppModule, ObserveInstrument } from './app.module';
 
 async function bootstrap() {
-  const app = await NestFactory.create(AppModule, { instrument: ObserveInstrument, });
+  const app = await NestFactory.create(AppModule, { instrument: ObserveInstrument });
   await app.listen(process.env.PORT ?? 3000);
 }
 bootstrap();
 ```
+
 ---
 
->#### complete work flow
-```bash
+## পুরো Workflow একনজরে
+
+```
 Observe Dashboard
-       ↓
+      ↓
 Project
-       ↓
+      ↓
 Application
-       ↓
+      ↓
 appKey + appSecret
-       ↓
+      ↓
 .env
-       ↓
+      ↓
 @nestjs/observe
-       ↓
+      ↓
 ObserveModule.forRoot()
-       ↓
+      ↓
 ObserveInstrument
-       ↓
+      ↓
 NestJS App
-       ↓
+      ↓
 API Request
-       ↓
+      ↓
 Observe Dashboard
 ```
+
+মানে সহজ কথায় — Dashboard-এ Project ও Application বানিয়ে key নিয়ে আসো, সেই key `.env`-এ বসাও, SDK install করে `app.module.ts` আর `main.ts`-এ wire করে দাও। এরপর তোমার app-এ যত API request আসবে, সেগুলোর data automatic Observe Dashboard-এ চলে যাবে — দেখার জন্য আলাদা করে কিছু log/setup করা লাগবে না।
+
 ---
