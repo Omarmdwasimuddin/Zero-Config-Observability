@@ -48,3 +48,6 @@
 >#### Name: `my-api-keys` , Application: `my-application` ---> click: CONFIRM
 <img width="522" height="437" alt="image" src="https://github.com/user-attachments/assets/fede9fc8-6192-426b-ab85-408c7d691a65" />
 
+
+>#### copy koro--->APP key and APP secret---> paste koro: .env file e
+<img width="525" height="497" alt="image" src="https://github.com/user-attachments/assets/315f416c-3478-43f5-b424-968b6f5eb0db" />
