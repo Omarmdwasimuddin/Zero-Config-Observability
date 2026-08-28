@@ -18,7 +18,7 @@
 > #### click: CREATE PROJECT
 <img width="1175" height="100" alt="image" src="https://github.com/user-attachments/assets/250116eb-bf98-49cc-a262-9716eccf6523" />
 
-> #### value daw. Name: my-nest-app , Team:
+> #### value daw. Name: my-nest-app , Team: students-api , Avatar select koro ar click koro---> CONFIRM
 > #### Note: Create e click korte hobe na hole Team option e value thakbe na.
 > <img width="477" height="92" alt="image" src="https://github.com/user-attachments/assets/72ad8f8a-999f-402c-b80a-c6b3a9fecb97" />
 
