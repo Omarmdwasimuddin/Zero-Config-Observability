@@ -11,3 +11,6 @@
 
 > #### click: Continue with Github
 <img width="476" height="729" alt="image" src="https://github.com/user-attachments/assets/d74d1fb5-d9e3-45aa-994d-86c2ea01cacf" />
+
+> #### https://www.observe.nestjs.com/dashboard open hobe
+<img width="1599" height="729" alt="image" src="https://github.com/user-attachments/assets/b0cd2fff-1be6-4720-a396-4ba6a0f43c27" />
