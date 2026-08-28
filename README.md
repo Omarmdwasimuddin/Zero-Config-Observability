@@ -36,3 +36,8 @@
 
 >#### Name daw: my-application
 <img width="525" height="399" alt="image" src="https://github.com/user-attachments/assets/b4b624d3-2017-4933-8446-79402e2c5ee1" />
+
+##
+
+>#### click koro: API KEYS
+<img width="257" height="515" alt="image" src="https://github.com/user-attachments/assets/b87006e3-35dd-4d59-9485-47dd30429fba" />
