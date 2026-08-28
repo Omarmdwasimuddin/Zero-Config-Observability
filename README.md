@@ -18,6 +18,9 @@
 > #### click: CREATE PROJECT
 <img width="1175" height="100" alt="image" src="https://github.com/user-attachments/assets/250116eb-bf98-49cc-a262-9716eccf6523" />
 
-> ####
+> #### value daw. Name: my-nest-app , Team:
+> #### Note: Create e click korte hobe na hole Team option e value thakbe na.
+> <img width="477" height="92" alt="image" src="https://github.com/user-attachments/assets/72ad8f8a-999f-402c-b80a-c6b3a9fecb97" />
+
 <img width="1338" height="668" alt="image" src="https://github.com/user-attachments/assets/8bb9ccf3-ffcc-4bcc-b561-a6c0df993924" />
 
