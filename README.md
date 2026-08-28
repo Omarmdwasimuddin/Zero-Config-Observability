@@ -45,5 +45,6 @@
 >#### click: `ADD KEY`
 <img width="1206" height="309" alt="image" src="https://github.com/user-attachments/assets/9bf947fc-c5d4-416e-9f19-7424aa625859" />
 
->#### Name: `my-api-keys`
-<img width="523" height="430" alt="image" src="https://github.com/user-attachments/assets/725d2a15-5ee2-4aa0-af0f-0302bb9abfb6" />
+>#### Name: `my-api-keys` , Application: `my-application` ---> click: CONFIRM
+<img width="522" height="437" alt="image" src="https://github.com/user-attachments/assets/fede9fc8-6192-426b-ab85-408c7d691a65" />
+
