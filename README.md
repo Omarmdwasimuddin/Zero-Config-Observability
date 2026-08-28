@@ -34,13 +34,16 @@
 >#### click: Create application ---> abar click koro: CREATE APPLICATION
 <img width="1159" height="105" alt="image" src="https://github.com/user-attachments/assets/01a23af2-6aed-413b-9498-928486be3be0" />
 
->#### Name daw: my-application
+>#### Name daw: `my-application`
 <img width="525" height="399" alt="image" src="https://github.com/user-attachments/assets/b4b624d3-2017-4933-8446-79402e2c5ee1" />
 
 ##
 
->#### click koro: API KEYS
+>#### click koro: `API KEYS`
 <img width="257" height="515" alt="image" src="https://github.com/user-attachments/assets/b87006e3-35dd-4d59-9485-47dd30429fba" />
 
->#### click: ADD KEY
+>#### click: `ADD KEY`
 <img width="1206" height="309" alt="image" src="https://github.com/user-attachments/assets/9bf947fc-c5d4-416e-9f19-7424aa625859" />
+
+>#### Name: `my-api-keys`
+<img width="523" height="430" alt="image" src="https://github.com/user-attachments/assets/725d2a15-5ee2-4aa0-af0f-0302bb9abfb6" />
