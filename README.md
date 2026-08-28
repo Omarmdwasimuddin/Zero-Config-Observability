@@ -93,4 +93,52 @@ export class AppModule {}
 ---
 
 
+#### `main.ts`
+```bash
+const app = await NestFactory.create(AppModule, {
+  instrument: ObserveInstrument,
+});
+```
+>#### main.ts file e import koro `import 'dotenv/config';` and dotenv package install koro
+```bash
+npm install dotenv --save
+```
+>#### final `main.ts` file hobe.
+```bash
+import 'dotenv/config';
+import { NestFactory } from '@nestjs/core';
+import { AppModule, ObserveInstrument } from './app.module';
 
+async function bootstrap() {
+  const app = await NestFactory.create(AppModule, { instrument: ObserveInstrument, });
+  await app.listen(process.env.PORT ?? 3000);
+}
+bootstrap();
+```
+---
+
+>#### complete work flow
+```bash
+Observe Dashboard
+       ↓
+Project
+       ↓
+Application
+       ↓
+appKey + appSecret
+       ↓
+.env
+       ↓
+@nestjs/observe
+       ↓
+ObserveModule.forRoot()
+       ↓
+ObserveInstrument
+       ↓
+NestJS App
+       ↓
+API Request
+       ↓
+Observe Dashboard
+```
+---
