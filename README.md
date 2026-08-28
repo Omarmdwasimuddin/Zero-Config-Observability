@@ -60,3 +60,32 @@ OBSERVE_APP_KEY=""
 OBSERVE_APP_SECRET=""
 ```
 ---
+
+
+#### SDK install koro
+> NestJS project er terminal e daw 
+```bash
+npm install @nestjs/observe
+```
+---
+
+
+#### `app.module.ts`
+```bash
+import { Module } from '@nestjs/common';
+import { createObserveModule } from '@nestjs/observe';
+
+export const { ObserveModule, ObserveInstrument } = createObserveModule();
+
+@Module({
+  imports: [
+    ObserveModule.forRoot({
+      appKey: process.env.OBSERVE_APP_KEY!,
+      appSecret: process.env.OBSERVE_APP_SECRET!,
+      serviceId: 'my-nest-app',
+    }),
+  ],
+})
+export class AppModule {}
+```
+---
