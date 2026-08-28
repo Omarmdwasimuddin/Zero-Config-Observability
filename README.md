@@ -41,3 +41,6 @@
 
 >#### click koro: API KEYS
 <img width="257" height="515" alt="image" src="https://github.com/user-attachments/assets/b87006e3-35dd-4d59-9485-47dd30429fba" />
+
+>#### click: ADD KEY
+<img width="1206" height="309" alt="image" src="https://github.com/user-attachments/assets/9bf947fc-c5d4-416e-9f19-7424aa625859" />
